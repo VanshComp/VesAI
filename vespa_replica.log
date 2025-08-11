@@ -1,0 +1,740 @@
+2025-05-13 22:46:39,230 - INFO - Use pytorch device_name: cpu
+2025-05-13 22:46:39,230 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 22:46:46,780 - INFO - Use pytorch device: cpu
+2025-05-13 22:46:48,560 - INFO - Initialized local Faiss index
+2025-05-13 22:46:49,333 - ERROR - Error training shards: Error in void __cdecl faiss::Clustering::train_encoded(idx_t, const uint8_t *, const Index *, Index &, const float *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\Clustering.cpp:279: Error: 'nx >= k' failed: Number of training points (200) should be at least as large as number of clusters (256)
+2025-05-13 22:46:49,392 - ERROR - Error indexing 1: Index not trained
+2025-05-13 22:46:49,393 - ERROR - Error indexing 2: Index not trained
+2025-05-13 22:46:49,393 - INFO - Indexed 2 documents
+2025-05-13 22:46:50,905 - ERROR - Error in search: list index out of range
+2025-05-13 22:46:50,907 - ERROR - Error in main execution: list index out of range
+2025-05-13 22:51:24,585 - INFO - Use pytorch device_name: cpu
+2025-05-13 22:51:24,585 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 22:51:29,886 - INFO - Use pytorch device: cpu
+2025-05-13 22:51:30,956 - INFO - Initialized 2 local Faiss shards
+2025-05-13 22:51:35,560 - INFO - Generated 2000 sample embeddings for training
+2025-05-13 22:51:36,596 - INFO - Local Faiss index trained
+2025-05-13 22:51:37,598 - INFO - Local Faiss index trained
+2025-05-13 22:51:37,598 - INFO - All Faiss shards trained successfully
+2025-05-13 22:51:37,600 - INFO - Stored document 1 in document store
+2025-05-13 22:51:37,603 - INFO - Stored document 2 in document store
+2025-05-13 22:51:37,604 - INFO - Stored document 3 in document store
+2025-05-13 22:51:37,606 - INFO - Stored document 4 in document store
+2025-05-13 22:51:37,647 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:51:37,650 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:51:37,650 - INFO - Indexed document 1 in shard 1 with 1 sentences
+2025-05-13 22:51:37,651 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:51:37,653 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:51:37,653 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 22:51:37,653 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:51:37,656 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:51:37,656 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-13 22:51:37,656 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:51:37,658 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:51:37,658 - INFO - Indexed document 3 in shard 1 with 1 sentences
+2025-05-13 22:51:37,658 - INFO - Indexed 4 documents
+2025-05-13 22:51:37,661 - INFO - Generated token for user_id=user1
+2025-05-13 22:51:37,662 - INFO - Token verified successfully
+2025-05-13 22:51:38,230 - INFO - Classified query intent: recommendation
+2025-05-13 22:51:38,242 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:51:38,243 - INFO - Faiss search returned 6 results
+2025-05-13 22:51:38,243 - INFO - Faiss search returned 6 results
+2025-05-13 22:51:38,243 - INFO - Document store search returned 0 results
+2025-05-13 22:51:38,318 - INFO - Search completed: intent=recommendation, latency=0.655474s, results=3
+2025-05-13 22:51:38,320 - INFO - Token verified successfully
+2025-05-13 22:51:38,321 - INFO - Faiss search returned 3 results
+2025-05-13 22:51:38,321 - INFO - Faiss search returned 3 results
+2025-05-13 22:51:38,321 - INFO - Recommendation for 1: 2 similar documents found
+2025-05-13 22:51:38,322 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 22:51:38,323 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.655474}, 'cache_size': 1, 'indexed_docs': 4, 'document_store_size': 4}
+2025-05-13 22:59:00,122 - INFO - Use pytorch device_name: cpu
+2025-05-13 22:59:00,123 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 22:59:04,687 - INFO - Use pytorch device: cpu
+2025-05-13 22:59:05,730 - INFO - Initialized 2 local Faiss shards
+2025-05-13 22:59:10,571 - INFO - Generated 2000 sample embeddings for training
+2025-05-13 22:59:11,450 - INFO - Local Faiss index trained
+2025-05-13 22:59:12,301 - INFO - Local Faiss index trained
+2025-05-13 22:59:12,301 - INFO - All Faiss shards trained successfully
+2025-05-13 22:59:12,302 - INFO - Stored document 1 in document store
+2025-05-13 22:59:12,304 - INFO - Stored document 2 in document store
+2025-05-13 22:59:12,307 - INFO - Stored document 3 in document store
+2025-05-13 22:59:12,310 - INFO - Stored document 4 in document store
+2025-05-13 22:59:12,340 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:59:12,343 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:59:12,344 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-13 22:59:12,344 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:59:12,346 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:59:12,348 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 22:59:12,348 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:59:12,350 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:59:12,350 - INFO - Indexed document 3 in shard 1 with 1 sentences
+2025-05-13 22:59:12,350 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:59:12,352 - INFO - Added 1 vectors to Faiss index
+2025-05-13 22:59:12,352 - INFO - Indexed document 4 in shard 1 with 1 sentences
+2025-05-13 22:59:12,353 - INFO - Indexed 4 documents
+2025-05-13 22:59:12,354 - INFO - Generated token for user_id=user1
+2025-05-13 22:59:12,354 - INFO - Token verified successfully
+2025-05-13 22:59:12,920 - INFO - Classified query intent: recommendation
+2025-05-13 22:59:12,935 - INFO - Generated embeddings for 1 texts
+2025-05-13 22:59:12,935 - INFO - Faiss search returned 6 results
+2025-05-13 22:59:12,935 - INFO - Faiss search returned 6 results
+2025-05-13 22:59:12,935 - INFO - Document store search returned 0 results
+2025-05-13 22:59:12,981 - INFO - Search completed: intent=recommendation, latency=0.627361s, results=3
+2025-05-13 22:59:12,984 - INFO - Token verified successfully
+2025-05-13 22:59:12,984 - INFO - Faiss search returned 3 results
+2025-05-13 22:59:12,985 - INFO - Faiss search returned 3 results
+2025-05-13 22:59:12,985 - INFO - Recommendation for 1: 2 similar documents found
+2025-05-13 22:59:12,988 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 22:59:12,988 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.627361}, 'cache_size': 1, 'indexed_docs': 4, 'document_store_size': 4}
+2025-05-13 23:05:26,066 - INFO - Use pytorch device_name: cpu
+2025-05-13 23:05:26,067 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 23:05:30,629 - INFO - Use pytorch device: cpu
+2025-05-13 23:05:31,765 - INFO - Initialized 1 local Faiss shards
+2025-05-13 23:05:55,101 - INFO - Generated 10000 sample embeddings for training
+2025-05-13 23:05:57,275 - INFO - Local Faiss index trained
+2025-05-13 23:05:57,276 - INFO - All Faiss shards trained successfully
+2025-05-13 23:05:57,277 - INFO - Stored document 1 in document store
+2025-05-13 23:05:57,280 - INFO - Stored document 2 in document store
+2025-05-13 23:05:57,281 - INFO - Stored document 3 in document store
+2025-05-13 23:05:57,285 - INFO - Stored document 4 in document store
+2025-05-13 23:05:57,315 - INFO - Generated embeddings for 1 texts
+2025-05-13 23:05:57,319 - INFO - Added 1 vectors to Faiss index
+2025-05-13 23:05:57,319 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-13 23:05:57,320 - INFO - Generated embeddings for 1 texts
+2025-05-13 23:05:57,323 - INFO - Added 1 vectors to Faiss index
+2025-05-13 23:05:57,323 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 23:05:57,323 - INFO - Generated embeddings for 1 texts
+2025-05-13 23:05:57,326 - INFO - Added 1 vectors to Faiss index
+2025-05-13 23:05:57,326 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-13 23:05:57,327 - INFO - Generated embeddings for 1 texts
+2025-05-13 23:05:57,330 - INFO - Added 1 vectors to Faiss index
+2025-05-13 23:05:57,330 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-13 23:05:57,330 - INFO - Indexed 4 documents
+2025-05-13 23:05:57,332 - INFO - Generated token for user_id=user1
+2025-05-13 23:05:57,333 - INFO - Token verified successfully
+2025-05-13 23:05:57,940 - INFO - Classified query intent: recommendation
+2025-05-13 23:05:57,953 - INFO - Generated embeddings for 1 texts
+2025-05-13 23:05:57,956 - INFO - Faiss search returned 6 results
+2025-05-13 23:05:57,956 - INFO - Document store search returned 0 results
+2025-05-13 23:05:58,005 - INFO - Search completed: intent=recommendation, latency=0.672313s, results=3
+2025-05-13 23:05:58,008 - INFO - Token verified successfully
+2025-05-13 23:05:58,008 - INFO - Faiss search returned 3 results
+2025-05-13 23:05:58,008 - INFO - Recommendation for 1: 2 similar documents found
+2025-05-13 23:05:58,011 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 23:05:58,012 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.672313}, 'cache_size': 1, 'indexed_docs': 4, 'document_store_size': 4}
+2025-05-13 23:11:59,945 - INFO - Use pytorch device_name: cpu
+2025-05-13 23:11:59,946 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 23:12:04,586 - INFO - Use pytorch device: cpu
+2025-05-13 23:12:06,376 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-13 23:13:59,330 - INFO - Initialized 1 local Faiss shards
+2025-05-13 23:14:17,935 - INFO - Generated 5000 sample embeddings in 18.603s
+2025-05-13 23:14:20,719 - INFO - Local Faiss index trained in 2.783s
+2025-05-13 23:14:20,719 - INFO - All Faiss shards trained in 2.783s
+2025-05-13 23:14:20,721 - INFO - Stored document 1 in document store
+2025-05-13 23:14:20,723 - INFO - Stored document 2 in document store
+2025-05-13 23:14:20,724 - INFO - Stored document 3 in document store
+2025-05-13 23:14:20,726 - INFO - Stored document 4 in document store
+2025-05-13 23:14:20,727 - INFO - Stored document 5 in document store
+2025-05-13 23:14:20,729 - INFO - Stored document 6 in document store
+2025-05-13 23:14:20,830 - INFO - Generated embeddings for 1 texts in 0.108s
+2025-05-13 23:14:20,839 - INFO - Added 1 vectors to Faiss index in 0.008s
+2025-05-13 23:14:20,840 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-13 23:14:20,842 - INFO - Generated embeddings for 1 texts in 0.116s
+2025-05-13 23:14:20,849 - INFO - Added 1 vectors to Faiss index in 0.007s
+2025-05-13 23:14:20,850 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-13 23:14:20,858 - INFO - Generated embeddings for 1 texts in 0.129s
+2025-05-13 23:14:20,865 - INFO - Added 1 vectors to Faiss index in 0.007s
+2025-05-13 23:14:20,866 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-13 23:14:20,866 - INFO - Generated embeddings for 1 texts in 0.143s
+2025-05-13 23:14:20,869 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:14:20,870 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 23:14:20,870 - INFO - Generated embeddings for 1 texts in 0.144s
+2025-05-13 23:14:20,875 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-13 23:14:20,876 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-13 23:14:20,876 - INFO - Generated embeddings for 1 texts in 0.149s
+2025-05-13 23:14:20,881 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-13 23:14:20,881 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-13 23:14:20,882 - INFO - Indexed 6 documents in 0.161s
+2025-05-13 23:14:20,886 - INFO - Generated token for user_id=user1
+2025-05-13 23:14:20,887 - INFO - Token verified successfully
+2025-05-13 23:14:21,113 - INFO - Classified query intent: exploration in 0.224s
+2025-05-13 23:14:21,163 - INFO - Generated embeddings for 1 texts in 0.051s
+2025-05-13 23:14:21,164 - INFO - Faiss search returned 6 results in 0.001s
+2025-05-13 23:14:21,165 - INFO - Document store search returned 3 results
+2025-05-13 23:14:21,256 - INFO - Search completed: intent=exploration, latency=0.369s, results=3
+2025-05-13 23:14:21,262 - INFO - Token verified successfully
+2025-05-13 23:14:21,262 - INFO - Faiss search returned 3 results in 0.000s
+2025-05-13 23:14:21,263 - INFO - Recommendation for 1: 2 similar documents found in 0.001s
+2025-05-13 23:14:21,266 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 23:14:21,267 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.36921000480651855}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-13 23:18:07,453 - INFO - Use pytorch device_name: cpu
+2025-05-13 23:18:07,453 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 23:18:12,510 - INFO - Use pytorch device: cpu
+2025-05-13 23:18:13,399 - INFO - Initialized 1 local Faiss shards
+2025-05-13 23:18:24,383 - INFO - Generated 5000 sample embeddings in 10.984s
+2025-05-13 23:18:25,765 - INFO - Local Faiss index trained in 1.381s
+2025-05-13 23:18:25,766 - INFO - All Faiss shards trained in 1.382s
+2025-05-13 23:18:25,767 - INFO - Stored document 1 in document store
+2025-05-13 23:18:25,770 - INFO - Stored document 2 in document store
+2025-05-13 23:18:25,771 - INFO - Stored document 3 in document store
+2025-05-13 23:18:25,772 - INFO - Stored document 4 in document store
+2025-05-13 23:18:25,774 - INFO - Stored document 5 in document store
+2025-05-13 23:18:25,776 - INFO - Stored document 6 in document store
+2025-05-13 23:18:25,816 - INFO - Generated embeddings for 1 texts in 0.046s
+2025-05-13 23:18:25,821 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-13 23:18:25,822 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 23:18:25,822 - INFO - Generated embeddings for 1 texts in 0.055s
+2025-05-13 23:18:25,826 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:18:25,827 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-13 23:18:25,827 - INFO - Generated embeddings for 1 texts in 0.055s
+2025-05-13 23:18:25,832 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:18:25,832 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-13 23:18:25,832 - INFO - Generated embeddings for 1 texts in 0.055s
+2025-05-13 23:18:25,835 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-13 23:18:25,835 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-13 23:18:25,835 - INFO - Generated embeddings for 1 texts in 0.061s
+2025-05-13 23:18:25,837 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-13 23:18:25,838 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-13 23:18:25,838 - INFO - Generated embeddings for 1 texts in 0.063s
+2025-05-13 23:18:25,840 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-13 23:18:25,840 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-13 23:18:25,840 - INFO - Indexed 6 documents in 0.073s
+2025-05-13 23:18:25,842 - INFO - Generated token for user_id=user1
+2025-05-13 23:18:25,843 - INFO - Token verified successfully
+2025-05-13 23:18:25,946 - INFO - Classified query intent: exploration in 0.103s
+2025-05-13 23:18:25,958 - INFO - Generated embeddings for 1 texts in 0.012s
+2025-05-13 23:18:25,958 - INFO - Faiss search returned 6 results in 0.000s
+2025-05-13 23:18:25,960 - INFO - Document store search returned 3 results
+2025-05-13 23:18:26,009 - INFO - Search completed: intent=exploration, latency=0.166s, results=3
+2025-05-13 23:18:26,011 - INFO - Token verified successfully
+2025-05-13 23:18:26,012 - INFO - Faiss search returned 3 results in 0.000s
+2025-05-13 23:18:26,012 - INFO - Recommendation for 1: 1 similar documents found in 0.001s
+2025-05-13 23:18:26,013 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 23:18:26,014 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.16601276397705078}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-13 23:21:17,196 - INFO - Use pytorch device_name: cpu
+2025-05-13 23:21:17,196 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 23:21:21,561 - INFO - Use pytorch device: cpu
+2025-05-13 23:23:04,604 - INFO - Initialized 1 local Faiss shards
+2025-05-13 23:23:19,740 - INFO - Generated 5000 sample embeddings in 15.134s
+2025-05-13 23:23:21,899 - INFO - Local Faiss index trained in 2.158s
+2025-05-13 23:23:21,900 - INFO - All Faiss shards trained in 2.159s
+2025-05-13 23:23:21,901 - INFO - Stored document 1 in document store
+2025-05-13 23:23:21,902 - INFO - Stored document 2 in document store
+2025-05-13 23:23:21,905 - INFO - Stored document 3 in document store
+2025-05-13 23:23:21,907 - INFO - Stored document 4 in document store
+2025-05-13 23:23:21,910 - INFO - Stored document 5 in document store
+2025-05-13 23:23:21,912 - INFO - Stored document 6 in document store
+2025-05-13 23:23:21,963 - INFO - Generated embeddings for 1 texts in 0.062s
+2025-05-13 23:23:21,968 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-13 23:23:21,969 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-13 23:23:21,970 - INFO - Generated embeddings for 1 texts in 0.066s
+2025-05-13 23:23:21,973 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-13 23:23:21,973 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 23:23:21,974 - INFO - Generated embeddings for 1 texts in 0.069s
+2025-05-13 23:23:21,977 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:23:21,977 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-13 23:23:21,977 - INFO - Generated embeddings for 1 texts in 0.069s
+2025-05-13 23:23:21,979 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-13 23:23:21,980 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-13 23:23:21,980 - INFO - Generated embeddings for 1 texts in 0.070s
+2025-05-13 23:23:21,983 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:23:21,983 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-13 23:23:21,983 - INFO - Generated embeddings for 1 texts in 0.071s
+2025-05-13 23:23:21,986 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-13 23:23:21,986 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-13 23:23:21,987 - INFO - Indexed 6 documents in 0.086s
+2025-05-13 23:23:21,989 - INFO - Generated token for user_id=user1
+2025-05-13 23:23:21,990 - INFO - Token verified successfully
+2025-05-13 23:23:22,142 - INFO - Classified query intent: exploration in 0.152s
+2025-05-13 23:23:22,173 - INFO - Generated embeddings for 1 texts in 0.031s
+2025-05-13 23:23:22,174 - INFO - Faiss search returned 9 results in 0.000s
+2025-05-13 23:23:22,175 - INFO - Document store search returned 3 results
+2025-05-13 23:23:22,267 - INFO - Search completed: intent=exploration, latency=0.276s, results=3
+2025-05-13 23:23:22,271 - INFO - Token verified successfully
+2025-05-13 23:23:22,272 - INFO - Faiss search returned 4 results in 0.000s
+2025-05-13 23:23:22,273 - INFO - Recommendation for 1: 2 similar documents found in 0.002s
+2025-05-13 23:23:22,279 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 23:23:22,281 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.27644777297973633}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-13 23:26:57,749 - INFO - Use pytorch device_name: cpu
+2025-05-13 23:26:57,749 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 23:27:03,155 - INFO - Use pytorch device: cpu
+2025-05-13 23:27:03,905 - INFO - Initialized 1 local Faiss shards
+2025-05-13 23:27:47,223 - INFO - Generated 19994 sample embeddings in 43.318s
+2025-05-13 23:27:49,739 - INFO - Local Faiss index trained with 19994 points in 2.514s
+2025-05-13 23:27:49,740 - INFO - All Faiss shards trained with 19994 points in 2.515s
+2025-05-13 23:27:49,755 - INFO - Stored document 1 in document store
+2025-05-13 23:27:49,757 - INFO - Stored document 2 in document store
+2025-05-13 23:27:49,758 - INFO - Stored document 3 in document store
+2025-05-13 23:27:49,760 - INFO - Stored document 4 in document store
+2025-05-13 23:27:49,761 - INFO - Stored document 5 in document store
+2025-05-13 23:27:49,763 - INFO - Stored document 6 in document store
+2025-05-13 23:27:49,827 - INFO - Generated embeddings for 1 texts in 0.071s
+2025-05-13 23:27:49,830 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:27:49,831 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-13 23:27:49,833 - INFO - Generated embeddings for 1 texts in 0.074s
+2025-05-13 23:27:49,837 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-13 23:27:49,837 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 23:27:49,840 - INFO - Generated embeddings for 1 texts in 0.081s
+2025-05-13 23:27:49,843 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:27:49,843 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-13 23:27:49,844 - INFO - Generated embeddings for 1 texts in 0.083s
+2025-05-13 23:27:49,847 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:27:49,847 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-13 23:27:49,847 - INFO - Generated embeddings for 1 texts in 0.085s
+2025-05-13 23:27:49,849 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-13 23:27:49,850 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-13 23:27:49,850 - INFO - Generated embeddings for 1 texts in 0.087s
+2025-05-13 23:27:49,852 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-13 23:27:49,852 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-13 23:27:49,852 - INFO - Indexed 6 documents in 0.097s
+2025-05-13 23:27:49,854 - INFO - Generated token for user_id=user1
+2025-05-13 23:27:49,855 - INFO - Token verified successfully
+2025-05-13 23:27:49,949 - INFO - Classified query intent: exploration in 0.093s
+2025-05-13 23:27:49,962 - INFO - Generated embeddings for 1 texts in 0.013s
+2025-05-13 23:27:49,962 - INFO - Faiss search returned 9 results in 0.000s
+2025-05-13 23:27:49,963 - INFO - Document store search returned 3 results
+2025-05-13 23:27:50,007 - INFO - Search completed: intent=exploration, latency=0.152s, results=3
+2025-05-13 23:27:50,011 - INFO - Token verified successfully
+2025-05-13 23:27:50,011 - INFO - Faiss search returned 6 results in 0.000s
+2025-05-13 23:27:50,011 - INFO - Recommendation for 1: 1 similar documents found in 0.000s
+2025-05-13 23:27:50,013 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 23:27:50,013 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.15231537818908691}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-13 23:30:45,214 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-13 23:30:45,446 - INFO - Use pytorch device_name: cpu
+2025-05-13 23:30:45,447 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-13 23:30:48,978 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-13 23:31:22,664 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-13 23:31:52,612 - INFO - Use pytorch device: cpu
+2025-05-13 23:33:13,695 - INFO - Initialized 1 local Faiss shards
+2025-05-13 23:33:51,841 - INFO - Generated 19994 sample embeddings in 38.145s
+2025-05-13 23:33:57,120 - INFO - Local Faiss index trained with 19994 points in 5.276s
+2025-05-13 23:33:57,121 - INFO - All Faiss shards trained with 19994 points in 5.277s
+2025-05-13 23:33:57,123 - INFO - Stored document 1 in document store
+2025-05-13 23:33:57,126 - INFO - Stored document 2 in document store
+2025-05-13 23:33:57,128 - INFO - Stored document 3 in document store
+2025-05-13 23:33:57,131 - INFO - Stored document 4 in document store
+2025-05-13 23:33:57,133 - INFO - Stored document 5 in document store
+2025-05-13 23:33:57,137 - INFO - Stored document 6 in document store
+2025-05-13 23:33:57,245 - INFO - Generated embeddings for 1 texts in 0.121s
+2025-05-13 23:33:57,253 - INFO - Added 1 vectors to Faiss index in 0.008s
+2025-05-13 23:33:57,254 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-13 23:33:57,272 - INFO - Generated embeddings for 1 texts in 0.145s
+2025-05-13 23:33:57,281 - INFO - Added 1 vectors to Faiss index in 0.009s
+2025-05-13 23:33:57,281 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-13 23:33:57,284 - INFO - Generated embeddings for 1 texts in 0.156s
+2025-05-13 23:33:57,289 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-13 23:33:57,289 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-13 23:33:57,291 - INFO - Generated embeddings for 1 texts in 0.154s
+2025-05-13 23:33:57,296 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-13 23:33:57,297 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-13 23:33:57,297 - INFO - Generated embeddings for 1 texts in 0.164s
+2025-05-13 23:33:57,301 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-13 23:33:57,301 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-13 23:33:57,302 - INFO - Generated embeddings for 1 texts in 0.171s
+2025-05-13 23:33:57,305 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-13 23:33:57,305 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-13 23:33:57,305 - INFO - Indexed 6 documents in 0.182s
+2025-05-13 23:33:57,308 - INFO - Generated token for user_id=user1
+2025-05-13 23:33:57,309 - INFO - Token verified successfully
+2025-05-13 23:33:57,503 - INFO - Classified query intent: exploration in 0.193s
+2025-05-13 23:33:57,530 - INFO - Generated embeddings for 1 texts in 0.027s
+2025-05-13 23:33:57,530 - INFO - Faiss search returned 15 results in 0.000s
+2025-05-13 23:33:57,531 - INFO - Document store search returned 3 results
+2025-05-13 23:33:57,635 - INFO - Search completed: intent=exploration, latency=0.326s, results=3
+2025-05-13 23:33:57,643 - INFO - Token verified successfully
+2025-05-13 23:33:57,645 - INFO - Faiss search returned 10 results in 0.002s
+2025-05-13 23:33:57,645 - WARNING - No similar documents found for 1
+2025-05-13 23:33:57,648 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-13 23:33:57,649 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.32602381706237793}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 00:10:29,504 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 00:10:29,515 - INFO - Use pytorch device_name: cpu
+2025-05-14 00:10:29,515 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 00:10:34,140 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:11:13,681 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:11:48,776 - INFO - Use pytorch device: cpu
+2025-05-14 00:13:41,445 - INFO - Initialized 1 local Faiss shards
+2025-05-14 00:14:07,884 - INFO - Generated 19994 sample embeddings in 26.438s
+2025-05-14 00:14:13,073 - INFO - Local Faiss index trained with 19994 points in 5.184s
+2025-05-14 00:14:13,074 - INFO - All Faiss shards trained with 19994 points in 5.185s
+2025-05-14 00:14:13,076 - INFO - Stored document 1 in document store
+2025-05-14 00:14:13,077 - INFO - Stored document 2 in document store
+2025-05-14 00:14:13,080 - INFO - Stored document 3 in document store
+2025-05-14 00:14:13,082 - INFO - Stored document 4 in document store
+2025-05-14 00:14:13,085 - INFO - Stored document 5 in document store
+2025-05-14 00:14:13,088 - INFO - Stored document 6 in document store
+2025-05-14 00:14:13,170 - INFO - Generated embeddings for 1 texts in 0.094s
+2025-05-14 00:14:13,176 - INFO - Added 1 vectors to Faiss index in 0.006s
+2025-05-14 00:14:13,177 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-14 00:14:13,184 - INFO - Generated embeddings for 1 texts in 0.107s
+2025-05-14 00:14:13,188 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:14:13,189 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-14 00:14:13,190 - INFO - Generated embeddings for 1 texts in 0.110s
+2025-05-14 00:14:13,196 - INFO - Added 1 vectors to Faiss index in 0.006s
+2025-05-14 00:14:13,196 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-14 00:14:13,196 - INFO - Generated embeddings for 1 texts in 0.113s
+2025-05-14 00:14:13,200 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-14 00:14:13,200 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-14 00:14:13,200 - INFO - Generated embeddings for 1 texts in 0.115s
+2025-05-14 00:14:13,203 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:14:13,203 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-14 00:14:13,203 - INFO - Generated embeddings for 1 texts in 0.115s
+2025-05-14 00:14:13,205 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-14 00:14:13,206 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-14 00:14:13,206 - INFO - Indexed 6 documents in 0.131s
+2025-05-14 00:14:13,209 - INFO - Generated token for user_id=user1
+2025-05-14 00:14:13,210 - INFO - Token verified successfully
+2025-05-14 00:14:13,371 - INFO - Classified query intent: exploration in 0.161s
+2025-05-14 00:14:13,401 - INFO - Generated embeddings for 1 texts in 0.030s
+2025-05-14 00:14:13,404 - INFO - Faiss search returned 30 results in 0.002s
+2025-05-14 00:14:13,404 - INFO - Document store search returned 3 results
+2025-05-14 00:14:13,468 - INFO - Search completed: intent=exploration, latency=0.258s, results=3
+2025-05-14 00:14:13,480 - INFO - Token verified successfully
+2025-05-14 00:14:13,484 - INFO - Faiss search returned 20 results in 0.002s
+2025-05-14 00:14:13,484 - WARNING - Fallback used for recommendations, candidates: set()
+2025-05-14 00:14:13,484 - WARNING - No similar documents found for 1
+2025-05-14 00:14:13,488 - ERROR - Error updating reranker: Please install `datasets` to use this function: `pip install datasets`.
+2025-05-14 00:14:13,489 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.257826566696167}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 00:18:38,459 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 00:18:38,526 - INFO - Use pytorch device_name: cpu
+2025-05-14 00:18:38,526 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 00:18:43,673 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:19:26,885 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:20:13,220 - INFO - Use pytorch device: cpu
+2025-05-14 00:22:12,263 - INFO - Initialized 1 local Faiss shards
+2025-05-14 00:22:39,819 - INFO - Generated 20000 sample embeddings in 27.556s
+2025-05-14 00:22:45,110 - INFO - Local Faiss index trained with 20000 points in 5.289s
+2025-05-14 00:22:45,111 - INFO - All Faiss shards trained with 20000 points in 5.291s
+2025-05-14 00:22:45,111 - INFO - Stored document 1 in document store
+2025-05-14 00:22:45,114 - INFO - Stored document 2 in document store
+2025-05-14 00:22:45,116 - INFO - Stored document 3 in document store
+2025-05-14 00:22:45,118 - INFO - Stored document 4 in document store
+2025-05-14 00:22:45,120 - INFO - Stored document 5 in document store
+2025-05-14 00:22:45,121 - INFO - Stored document 6 in document store
+2025-05-14 00:22:45,195 - INFO - Generated embeddings for 1 texts in 0.082s, shape=(1, 384)
+2025-05-14 00:22:45,200 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-14 00:22:45,201 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-14 00:22:45,211 - INFO - Generated embeddings for 1 texts in 0.097s, shape=(1, 384)
+2025-05-14 00:22:45,216 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-14 00:22:45,217 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-14 00:22:45,218 - INFO - Generated embeddings for 1 texts in 0.097s, shape=(1, 384)
+2025-05-14 00:22:45,222 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-14 00:22:45,222 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-14 00:22:45,223 - INFO - Generated embeddings for 1 texts in 0.103s, shape=(1, 384)
+2025-05-14 00:22:45,226 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:22:45,226 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-14 00:22:45,226 - INFO - Generated embeddings for 1 texts in 0.108s, shape=(1, 384)
+2025-05-14 00:22:45,229 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:22:45,229 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-14 00:22:45,229 - INFO - Generated embeddings for 1 texts in 0.112s, shape=(1, 384)
+2025-05-14 00:22:45,233 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:22:45,233 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-14 00:22:45,233 - INFO - Indexed 6 documents in 0.121s
+2025-05-14 00:22:45,236 - INFO - Generated token for user_id=user1
+2025-05-14 00:22:45,237 - INFO - Token verified successfully
+2025-05-14 00:22:45,377 - INFO - Classified query intent: exploration in 0.140s
+2025-05-14 00:22:45,398 - INFO - Generated embeddings for 1 texts in 0.020s, shape=(1, 384)
+2025-05-14 00:22:45,398 - INFO - Faiss search returned 60 results in 0.000s, distances=[3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:22:45,398 - INFO - Document store search returned 3 results
+2025-05-14 00:22:45,455 - INFO - Search completed: intent=exploration, latency=0.218s, results=3
+2025-05-14 00:22:45,458 - INFO - Token verified successfully
+2025-05-14 00:22:45,459 - INFO - Faiss search returned 40 results in 0.002s, distances=[0.5925894975662231, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:22:45,459 - INFO - Recommendation for 1: 1 similar documents found in 0.002s
+2025-05-14 00:22:45,463 - ERROR - Error updating reranker: 'list' object has no attribute 'collate_fn'
+2025-05-14 00:22:45,464 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.21799063682556152}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 00:36:49,503 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 00:36:49,570 - INFO - Use pytorch device_name: cpu
+2025-05-14 00:36:49,570 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 00:36:54,889 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:37:35,378 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:38:12,597 - INFO - Use pytorch device: cpu
+2025-05-14 00:39:48,881 - INFO - Initialized 1 local Faiss shards
+2025-05-14 00:40:32,974 - INFO - Generated 20000 sample embeddings in 44.091s
+2025-05-14 00:40:39,320 - INFO - Local Faiss index trained with 20000 points in 6.344s
+2025-05-14 00:40:39,321 - INFO - All Faiss shards trained with 20000 points in 6.345s
+2025-05-14 00:40:39,324 - INFO - Stored document 1 in document store
+2025-05-14 00:40:39,328 - INFO - Stored document 2 in document store
+2025-05-14 00:40:39,330 - INFO - Stored document 3 in document store
+2025-05-14 00:40:39,335 - INFO - Stored document 4 in document store
+2025-05-14 00:40:39,339 - INFO - Stored document 5 in document store
+2025-05-14 00:40:39,346 - INFO - Stored document 6 in document store
+2025-05-14 00:40:39,448 - INFO - Generated embeddings for 1 texts in 0.124s, shape=(1, 384)
+2025-05-14 00:40:39,456 - INFO - Added 1 vectors to Faiss index in 0.008s
+2025-05-14 00:40:39,456 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-14 00:40:39,463 - INFO - Generated embeddings for 1 texts in 0.135s, shape=(1, 384)
+2025-05-14 00:40:39,468 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-14 00:40:39,469 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-14 00:40:39,470 - INFO - Generated embeddings for 1 texts in 0.138s, shape=(1, 384)
+2025-05-14 00:40:39,474 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-14 00:40:39,475 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-14 00:40:39,476 - INFO - Generated embeddings for 1 texts in 0.140s, shape=(1, 384)
+2025-05-14 00:40:39,479 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-14 00:40:39,479 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-14 00:40:39,480 - INFO - Generated embeddings for 1 texts in 0.135s, shape=(1, 384)
+2025-05-14 00:40:39,483 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-14 00:40:39,483 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-14 00:40:39,485 - INFO - Generated embeddings for 1 texts in 0.145s, shape=(1, 384)
+2025-05-14 00:40:39,488 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:40:39,488 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-14 00:40:39,488 - INFO - Indexed 6 documents in 0.165s
+2025-05-14 00:40:39,491 - INFO - Generated token for user_id=user1
+2025-05-14 00:40:39,493 - INFO - Token verified successfully
+2025-05-14 00:40:39,647 - INFO - Classified query intent: exploration in 0.153s
+2025-05-14 00:40:39,680 - INFO - Generated embeddings for 1 texts in 0.032s, shape=(1, 384)
+2025-05-14 00:40:39,681 - INFO - Faiss search returned 90 results in 0.001s, distances=[3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:40:39,683 - INFO - Document store search returned 3 results
+2025-05-14 00:40:39,778 - INFO - Search completed: intent=exploration, latency=0.286s, results=3
+2025-05-14 00:40:39,782 - INFO - Token verified successfully
+2025-05-14 00:40:39,783 - INFO - Faiss search returned 60 results in 0.001s, distances=[0.5922573208808899, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:40:39,784 - INFO - Recommendation for 5: 1 similar documents found in 0.002s
+2025-05-14 00:40:39,789 - ERROR - Error updating reranker: 'list' object has no attribute 'collate_fn'
+2025-05-14 00:40:39,790 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.2858743667602539}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 00:46:21,884 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 00:46:21,946 - INFO - Use pytorch device_name: cpu
+2025-05-14 00:46:21,946 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 00:46:26,777 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:47:09,418 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-14 00:47:39,109 - INFO - Use pytorch device: cpu
+2025-05-14 00:48:52,323 - INFO - Initialized 1 local Faiss shards
+2025-05-14 00:49:19,610 - INFO - Generated 20000 sample embeddings in 27.285s
+2025-05-14 00:49:24,690 - INFO - Local Faiss index trained with 20000 points in 5.076s
+2025-05-14 00:49:24,690 - INFO - All Faiss shards trained with 20000 points in 5.077s
+2025-05-14 00:49:24,691 - INFO - Stored document 1 in document store
+2025-05-14 00:49:24,693 - INFO - Stored document 2 in document store
+2025-05-14 00:49:24,697 - INFO - Stored document 3 in document store
+2025-05-14 00:49:24,701 - INFO - Stored document 4 in document store
+2025-05-14 00:49:24,703 - INFO - Stored document 5 in document store
+2025-05-14 00:49:24,704 - INFO - Stored document 6 in document store
+2025-05-14 00:49:24,769 - INFO - Generated embeddings for 1 texts in 0.077s, shape=(1, 384)
+2025-05-14 00:49:24,774 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-14 00:49:24,775 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-14 00:49:24,776 - INFO - Generated embeddings for 1 texts in 0.082s, shape=(1, 384)
+2025-05-14 00:49:24,780 - INFO - Added 1 vectors to Faiss index in 0.004s
+2025-05-14 00:49:24,780 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-14 00:49:24,782 - INFO - Generated embeddings for 1 texts in 0.084s, shape=(1, 384)
+2025-05-14 00:49:24,786 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:49:24,787 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-14 00:49:24,787 - INFO - Generated embeddings for 1 texts in 0.086s, shape=(1, 384)
+2025-05-14 00:49:24,790 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:49:24,790 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-14 00:49:24,791 - INFO - Generated embeddings for 1 texts in 0.086s, shape=(1, 384)
+2025-05-14 00:49:24,794 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:49:24,794 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-14 00:49:24,795 - INFO - Generated embeddings for 1 texts in 0.093s, shape=(1, 384)
+2025-05-14 00:49:24,799 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:49:24,799 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-14 00:49:24,799 - INFO - Indexed 6 documents in 0.108s
+2025-05-14 00:49:24,802 - INFO - Generated token for user_id=user1
+2025-05-14 00:49:24,804 - INFO - Token verified successfully
+2025-05-14 00:49:24,909 - INFO - Classified query intent: exploration in 0.105s
+2025-05-14 00:49:24,930 - INFO - Generated embeddings for 1 texts in 0.021s, shape=(1, 384)
+2025-05-14 00:49:24,931 - INFO - Faiss search returned 90 results in 0.001s, distances=[3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:49:24,931 - INFO - Document store search returned 3 results
+2025-05-14 00:49:25,055 - INFO - Search completed: intent=exploration, latency=0.250s, results=3
+2025-05-14 00:49:25,061 - INFO - Token verified successfully
+2025-05-14 00:49:25,063 - INFO - Faiss search returned 60 results in 0.000s, distances=[0.7406054735183716, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:49:25,065 - INFO - Recommendation for 5: 1 similar documents found in 0.005s
+2025-05-14 00:49:25,075 - ERROR - Error updating reranker: 'list' object has no attribute 'collate_fn'
+2025-05-14 00:49:25,076 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.25}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 00:50:46,720 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 00:50:46,794 - INFO - Use pytorch device_name: cpu
+2025-05-14 00:50:46,794 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 00:52:24,280 - INFO - Use pytorch device: cpu
+2025-05-14 00:54:00,724 - INFO - Initialized 1 local Faiss shards
+2025-05-14 00:54:41,417 - INFO - Generated 20000 sample embeddings in 40.692s
+2025-05-14 00:54:46,499 - INFO - Local Faiss index trained with 20000 points in 5.081s
+2025-05-14 00:54:46,499 - INFO - All Faiss shards trained with 20000 points in 5.081s
+2025-05-14 00:54:46,502 - INFO - Stored document 1 in document store
+2025-05-14 00:54:46,503 - INFO - Stored document 2 in document store
+2025-05-14 00:54:46,506 - INFO - Stored document 3 in document store
+2025-05-14 00:54:46,508 - INFO - Stored document 4 in document store
+2025-05-14 00:54:46,509 - INFO - Stored document 5 in document store
+2025-05-14 00:54:46,511 - INFO - Stored document 6 in document store
+2025-05-14 00:54:46,574 - INFO - Generated embeddings for 1 texts in 0.072s, shape=(1, 384)
+2025-05-14 00:54:46,579 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-14 00:54:46,580 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-14 00:54:46,583 - INFO - Generated embeddings for 1 texts in 0.078s, shape=(1, 384)
+2025-05-14 00:54:46,587 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:54:46,588 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-14 00:54:46,589 - INFO - Generated embeddings for 1 texts in 0.080s, shape=(1, 384)
+2025-05-14 00:54:46,593 - INFO - Added 1 vectors to Faiss index in 0.005s
+2025-05-14 00:54:46,594 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-14 00:54:46,595 - INFO - Generated embeddings for 1 texts in 0.090s, shape=(1, 384)
+2025-05-14 00:54:46,597 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-14 00:54:46,598 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-14 00:54:46,598 - INFO - Generated embeddings for 1 texts in 0.091s, shape=(1, 384)
+2025-05-14 00:54:46,601 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 00:54:46,601 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-14 00:54:46,601 - INFO - Generated embeddings for 1 texts in 0.090s, shape=(1, 384)
+2025-05-14 00:54:46,603 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-14 00:54:46,604 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-14 00:54:46,604 - INFO - Indexed 6 documents in 0.103s
+2025-05-14 00:54:46,606 - INFO - Generated token for user_id=user1
+2025-05-14 00:54:46,607 - INFO - Token verified successfully
+2025-05-14 00:54:46,735 - INFO - Classified query intent: exploration in 0.128s
+2025-05-14 00:54:46,759 - INFO - Generated embeddings for 1 texts in 0.023s, shape=(1, 384)
+2025-05-14 00:54:46,760 - INFO - Faiss search returned 90 results in 0.002s, distances=[3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:54:46,761 - INFO - Document store search returned 3 results
+2025-05-14 00:54:46,858 - INFO - Search completed: intent=exploration, latency=0.250s, results=3
+2025-05-14 00:54:46,865 - INFO - Token verified successfully
+2025-05-14 00:54:46,866 - INFO - Faiss search returned 60 results in 0.001s, distances=[0.7406054735183716, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 00:54:46,866 - INFO - Recommendation for 5: 1 similar documents found in 0.002s
+2025-05-14 00:54:48,196 - INFO - Reranker updated with 1 feedback examples in 1.327s
+2025-05-14 00:54:48,197 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.25}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 01:18:55,920 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 01:18:55,984 - INFO - Use pytorch device_name: cpu
+2025-05-14 01:18:55,984 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 01:19:15,923 - INFO - Use pytorch device: cpu
+2025-05-14 01:20:46,806 - INFO - Initialized 1 local Faiss shards
+2025-05-14 01:21:12,945 - INFO - Generated 20000 sample embeddings in 26.137s
+2025-05-14 01:21:17,138 - INFO - Local Faiss index trained with 20000 points in 4.191s
+2025-05-14 01:21:17,138 - INFO - All Faiss shards trained with 20000 points in 4.191s
+2025-05-14 01:21:17,139 - INFO - Stored document 1 in document store
+2025-05-14 01:21:17,141 - INFO - Stored document 2 in document store
+2025-05-14 01:21:17,142 - INFO - Stored document 3 in document store
+2025-05-14 01:21:17,144 - INFO - Stored document 4 in document store
+2025-05-14 01:21:17,145 - INFO - Stored document 5 in document store
+2025-05-14 01:21:17,147 - INFO - Stored document 6 in document store
+2025-05-14 01:21:17,200 - INFO - Generated embeddings for 1 texts in 0.060s, shape=(1, 384)
+2025-05-14 01:21:17,204 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 01:21:17,204 - INFO - Indexed document 1 in shard 0 with 1 sentences
+2025-05-14 01:21:17,207 - INFO - Generated embeddings for 1 texts in 0.065s, shape=(1, 384)
+2025-05-14 01:21:17,210 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 01:21:17,211 - INFO - Indexed document 2 in shard 0 with 1 sentences
+2025-05-14 01:21:17,211 - INFO - Generated embeddings for 1 texts in 0.067s, shape=(1, 384)
+2025-05-14 01:21:17,214 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-14 01:21:17,215 - INFO - Indexed document 4 in shard 0 with 1 sentences
+2025-05-14 01:21:17,215 - INFO - Generated embeddings for 1 texts in 0.072s, shape=(1, 384)
+2025-05-14 01:21:17,217 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-14 01:21:17,217 - INFO - Indexed document 3 in shard 0 with 1 sentences
+2025-05-14 01:21:17,217 - INFO - Generated embeddings for 1 texts in 0.071s, shape=(1, 384)
+2025-05-14 01:21:17,220 - INFO - Added 1 vectors to Faiss index in 0.002s
+2025-05-14 01:21:17,220 - INFO - Indexed document 5 in shard 0 with 1 sentences
+2025-05-14 01:21:17,221 - INFO - Generated embeddings for 1 texts in 0.074s, shape=(1, 384)
+2025-05-14 01:21:17,224 - INFO - Added 1 vectors to Faiss index in 0.003s
+2025-05-14 01:21:17,224 - INFO - Indexed document 6 in shard 0 with 1 sentences
+2025-05-14 01:21:17,224 - INFO - Indexed 6 documents in 0.086s
+2025-05-14 01:21:17,227 - INFO - Generated token for user_id=user1
+2025-05-14 01:21:17,228 - INFO - Token verified successfully
+2025-05-14 01:21:17,385 - INFO - Classified query intent: exploration in 0.155s
+2025-05-14 01:21:17,411 - INFO - Generated embeddings for 1 texts in 0.025s, shape=(1, 384)
+2025-05-14 01:21:17,411 - INFO - Faiss search returned 90 results in 0.000s, distances=[3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 01:21:17,412 - INFO - Document store search returned 3 results
+2025-05-14 01:21:17,500 - INFO - Search completed: intent=exploration, latency=0.271s, results=3
+2025-05-14 01:21:17,503 - INFO - Token verified successfully
+2025-05-14 01:21:17,504 - INFO - Faiss search returned 60 results in 0.000s, distances=[0.7406054735183716, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38, 3.4028234663852886e+38]
+2025-05-14 01:21:17,505 - INFO - Recommendation for 5: 1 similar documents found in 0.002s
+2025-05-14 01:21:18,364 - INFO - Reranker updated with 1 feedback examples in 0.855s
+2025-05-14 01:21:18,365 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.2710416316986084}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 01:33:30,236 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 01:33:30,294 - INFO - Use pytorch device_name: cpu
+2025-05-14 01:33:30,294 - INFO - Load pretrained SentenceTransformer: vesai-custom-model
+2025-05-14 01:33:30,620 - WARNING - No sentence-transformers model found with name sentence-transformers/vesai-custom-model. Creating a new one with mean pooling.
+2025-05-14 01:33:30,833 - WARNING - Custom model not found, falling back to all-MiniLM-L6-v2
+2025-05-14 01:33:30,841 - INFO - Use pytorch device_name: cpu
+2025-05-14 01:33:30,841 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 01:33:51,533 - INFO - Use pytorch device: cpu
+2025-05-14 01:48:23,311 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 01:48:23,379 - INFO - Use pytorch device_name: cpu
+2025-05-14 01:48:23,380 - INFO - Load pretrained SentenceTransformer: vesai-custom-model
+2025-05-14 01:48:24,141 - WARNING - No sentence-transformers model found with name sentence-transformers/vesai-custom-model. Creating a new one with mean pooling.
+2025-05-14 01:48:24,732 - WARNING - Custom model not found, falling back to all-MiniLM-L6-v2
+2025-05-14 01:48:24,737 - INFO - Use pytorch device_name: cpu
+2025-05-14 01:48:24,737 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 01:48:50,295 - INFO - Use pytorch device: cpu
+2025-05-14 01:50:16,639 - ERROR - Failed to initialize Pinecone: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'x-pinecone-api-version': '2025-01', 'x-cloud-trace-context': '09f3e71a65e98fb502c7ea967e7e47c0', 'date': 'Tue, 13 May 2025 20:20:16 GMT', 'content-type': 'text/html', 'server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2025-05-14 01:54:20,292 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 01:54:20,361 - INFO - Use pytorch device_name: cpu
+2025-05-14 01:54:20,361 - INFO - Load pretrained SentenceTransformer: vesai-custom-model
+2025-05-14 01:54:20,702 - WARNING - No sentence-transformers model found with name sentence-transformers/vesai-custom-model. Creating a new one with mean pooling.
+2025-05-14 01:54:20,934 - WARNING - Custom model not found, falling back to all-MiniLM-L6-v2
+2025-05-14 01:54:20,940 - INFO - Use pytorch device_name: cpu
+2025-05-14 01:54:20,940 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 01:54:38,276 - INFO - Use pytorch device: cpu
+2025-05-14 01:55:43,928 - ERROR - Failed to initialize Pinecone: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'content-type': 'text/plain; charset=utf-8', 'access-control-allow-origin': '*', 'vary': 'origin,access-control-request-method,access-control-request-headers', 'access-control-expose-headers': '*', 'x-pinecone-api-version': '2025-01', 'x-cloud-trace-context': 'b52a83004bc992ff648d3f65adac4745', 'date': 'Tue, 13 May 2025 20:25:44 GMT', 'server': 'Google Frontend', 'Content-Length': '200', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: {"error":{"code":"INVALID_ARGUMENT","message":"Bad request: Your free plan does not support indexes in the us-west-2 region of aws. To create indexes in this region, upgrade your plan."},"status":400}
+
+2025-05-14 02:18:24,208 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 02:18:24,263 - INFO - Use pytorch device_name: cpu
+2025-05-14 02:18:24,264 - INFO - Load pretrained SentenceTransformer: vesai-custom-model
+2025-05-14 02:18:24,563 - WARNING - No sentence-transformers model found with name sentence-transformers/vesai-custom-model. Creating a new one with mean pooling.
+2025-05-14 02:18:24,772 - WARNING - Custom model not found, falling back to all-MiniLM-L6-v2
+2025-05-14 02:18:24,774 - INFO - Use pytorch device_name: cpu
+2025-05-14 02:18:24,775 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 02:18:43,052 - INFO - Use pytorch device: cpu
+2025-05-14 02:19:47,144 - ERROR - Failed to initialize Pinecone: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'x-pinecone-api-version': '2025-01', 'x-cloud-trace-context': 'f95abc3d5ce9111fdce51ffb02da53ef', 'date': 'Tue, 13 May 2025 20:49:47 GMT', 'content-type': 'text/html', 'server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2025-05-14 02:31:24,272 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 02:31:24,333 - INFO - Use pytorch device_name: cpu
+2025-05-14 02:31:24,333 - INFO - Load pretrained SentenceTransformer: vesai-custom-model
+2025-05-14 02:31:24,663 - WARNING - No sentence-transformers model found with name sentence-transformers/vesai-custom-model. Creating a new one with mean pooling.
+2025-05-14 02:31:24,871 - WARNING - Custom model not found, falling back to all-MiniLM-L6-v2
+2025-05-14 02:31:24,875 - INFO - Use pytorch device_name: cpu
+2025-05-14 02:31:24,875 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 02:31:44,194 - INFO - Use pytorch device: cpu
+2025-05-14 02:32:23,036 - INFO - Clearing model cache at C:\Users\User/.cache/huggingface/hub
+2025-05-14 02:32:23,072 - INFO - Use pytorch device_name: cpu
+2025-05-14 02:32:23,072 - INFO - Load pretrained SentenceTransformer: vesai-custom-model
+2025-05-14 02:32:23,553 - WARNING - No sentence-transformers model found with name sentence-transformers/vesai-custom-model. Creating a new one with mean pooling.
+2025-05-14 02:32:23,801 - WARNING - Custom model not found, falling back to all-MiniLM-L6-v2
+2025-05-14 02:32:23,807 - INFO - Use pytorch device_name: cpu
+2025-05-14 02:32:23,807 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-14 02:32:42,313 - INFO - Use pytorch device: cpu
+2025-05-14 02:34:23,824 - INFO - Created Pinecone index: vesai-code-search in us-east-1
+2025-05-14 02:34:23,827 - INFO - Connected to Pinecone index: vesai-code-search
+2025-05-14 02:34:23,827 - INFO - Initialized 2 local Faiss shards
+2025-05-14 02:34:23,830 - INFO - Developer Mode status: Enabled
+2025-05-14 02:34:46,224 - INFO - Generated 24000 sample embeddings in 22.394s
+2025-05-14 02:34:49,062 - INFO - Local Faiss index trained with 24000 points in 2.834s
+2025-05-14 02:34:53,564 - INFO - Local Faiss index trained with 24000 points in 4.502s
+2025-05-14 02:34:53,565 - INFO - All Faiss shards trained in 7.337s
+2025-05-14 02:34:53,566 - INFO - Stored document 1
+2025-05-14 02:34:53,568 - INFO - Stored document 2
+2025-05-14 02:34:53,570 - INFO - Stored document 3
+2025-05-14 02:34:53,571 - INFO - Stored document 4
+2025-05-14 02:34:53,572 - INFO - Stored document 5
+2025-05-14 02:34:53,574 - INFO - Stored document 6
+2025-05-14 02:34:53,624 - INFO - Generated embeddings for 1 texts in 0.053s, shape=(1, 384)
+2025-05-14 02:34:55,954 - INFO - Added 1 vectors to Faiss index in 0.007s
+2025-05-14 02:34:55,955 - INFO - Indexed document 4 in shard 1 and Pinecone
+2025-05-14 02:34:55,956 - INFO - Generated embeddings for 1 texts in 2.388s, shape=(1, 384)
+2025-05-14 02:34:56,247 - INFO - Added 1 vectors to Faiss index in 0.007s
+2025-05-14 02:34:56,247 - INFO - Indexed document 2 in shard 1 and Pinecone
+2025-05-14 02:34:56,248 - INFO - Generated embeddings for 1 texts in 2.680s, shape=(1, 384)
+2025-05-14 02:34:56,554 - INFO - Added 1 vectors to Faiss index in 0.007s
+2025-05-14 02:34:56,554 - INFO - Indexed document 1 in shard 1 and Pinecone
+2025-05-14 02:34:56,555 - INFO - Generated embeddings for 1 texts in 2.985s, shape=(1, 384)
+2025-05-14 02:34:56,847 - INFO - Added 1 vectors to Faiss index in 0.008s
+2025-05-14 02:34:56,847 - INFO - Indexed document 3 in shard 0 and Pinecone
+2025-05-14 02:34:56,848 - INFO - Generated embeddings for 1 texts in 3.274s, shape=(1, 384)
+2025-05-14 02:34:57,120 - INFO - Added 1 vectors to Faiss index in 0.008s
+2025-05-14 02:34:57,121 - INFO - Indexed document 6 in shard 0 and Pinecone
+2025-05-14 02:34:57,122 - INFO - Generated embeddings for 1 texts in 3.548s, shape=(1, 384)
+2025-05-14 02:34:57,382 - INFO - Added 1 vectors to Faiss index in 0.008s
+2025-05-14 02:34:57,383 - INFO - Indexed document 5 in shard 1 and Pinecone
+2025-05-14 02:34:57,383 - INFO - Indexed 6 documents in 3.817s
+2025-05-14 02:34:57,387 - INFO - Generated token for user_id=user1
+2025-05-14 02:34:57,389 - INFO - Token verified successfully
+2025-05-14 02:34:57,565 - INFO - Classified intent: search in 0.176s
+2025-05-14 02:34:57,577 - INFO - Generated embeddings for 1 texts in 0.013s, shape=(1, 384)
+2025-05-14 02:34:57,899 - INFO - Faiss search returned 90 results in 0.000s
+2025-05-14 02:34:57,900 - INFO - Faiss search returned 90 results in 0.000s
+2025-05-14 02:34:57,901 - INFO - Document store search returned 6 results
+2025-05-14 02:34:58,000 - INFO - Search completed: intent=search, latency=0.612s, results=3
+2025-05-14 02:34:58,005 - INFO - Token verified successfully
+2025-05-14 02:34:58,232 - INFO - Faiss search returned 60 results in 0.000s
+2025-05-14 02:34:58,233 - INFO - Faiss search returned 60 results in 0.000s
+2025-05-14 02:34:58,234 - INFO - Recommendation for 5: 1 documents in 0.229s
+2025-05-14 02:34:58,774 - INFO - Reranker updated with 1 examples in 0.537s
+2025-05-14 02:34:58,774 - INFO - System stats: {'stats': {'queries': 1, 'avg_latency': 0.6121511459350586, 'cache_hits': 1}, 'cache_size': 1, 'indexed_docs': 6, 'document_store_size': 6}
+2025-05-14 02:34:58,791 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 02:34:58,791 - INFO - [33mPress CTRL+C to quit[0m

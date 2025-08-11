@@ -1,0 +1,16 @@
+api_key: your-secret-key
+aws_region: us-east-1
+batch_size: 500
+checkpoint_dir: checkpoints
+dimension: 384
+flask_host: 0.0.0.0
+flask_port: 5000
+index_params:
+  m: 16
+  nlist: 512
+  nprobe: 2
+num_shards: 16
+pinecone_api_key: null
+redis_host: localhost
+redis_port: 6379
+voyage_api_key: null
